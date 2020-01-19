@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commons-core" />
+        <module name="commons-tool" />
+        <module name="detect-api" />
+        <module name="detect-provider" />
+        <module name="invocation-detect" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons-core" target="1.7" />
+      <module name="commons-tool" target="1.7" />
+      <module name="detect-api" target="1.7" />
+      <module name="detect-provider" target="1.8" />
+      <module name="detect-service" target="1.5" />
+      <module name="invocation-commons" target="1.8" />
+      <module name="invocation-detect" target="1.8" />
+      <module name="invocation-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
